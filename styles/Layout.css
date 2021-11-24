@@ -1,0 +1,25 @@
+.layout {
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-weight: normal;
+}
+
+.children-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+}
