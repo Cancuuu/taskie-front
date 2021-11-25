@@ -1,0 +1,33 @@
+.btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-search {
+    background: rgb(60,89,250);
+    background: linear-gradient(90deg, rgba(60,89,250,1) 0%, rgba(221,45,116,1) 100%, rgba(250,144,60,1) 100%);
+    color: white;
+  
+}
+
+.btn-add {
+    margin-left: 32px;
+    background: rgb(250,144,60);
+    background: linear-gradient(90deg, rgba(250,144,60,1) 0%, rgba(221,45,116,1) 100%, rgba(221,45,116,1) 100%);
+    color: white;
+}
+.btn-back {
+    background: rgb(250,144,60);
+    background: linear-gradient(90deg, rgba(250,144,60,1) 0%, rgba(221,45,116,1) 100%, rgba(221,45,116,1) 100%);
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    transition: opacity 2ms ease;
+}

@@ -5,7 +5,7 @@ import Layout from "../layout/Layout";
 export default function Home() {
   return (
     <Layout>
-      <Toolbar />
+      <Toolbar page="add" />
       <Grid />
     </Layout>
   );

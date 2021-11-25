@@ -17,6 +17,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.toolbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-toolbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar-input {
+    font-size: 20px;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+
+.toolbar-input input {
+    padding: 10px 30px 10px  30px;
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #ffff;
+    width: 50vh;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .footer-container {
