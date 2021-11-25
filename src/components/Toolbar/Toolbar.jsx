@@ -17,23 +17,23 @@ const Toolbar = ({ page }) => {
           </button>
         ) : (
           <>
-            <button
+            {/* <button
               onClick={() => setShowSearchBar(!showSearchBar)}
               className="btn btn-search"
             >
               Search department
-            </button>
+            </button> */}
             <Link href="/add-department">
               <a className="btn btn-add">Add new department</a>
             </Link>
           </>
         )}
       </div>
-      {showSearchBar ? (
+      {/* {showSearchBar ? (
         <label class="toolbar-input">
           <input type="text" placeholder="Search department..." />
         </label>
-      ) : null}
+      ) : null} */}
     </div>
   );
 };
