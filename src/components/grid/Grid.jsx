@@ -19,6 +19,7 @@ const Grid = () => {
           key={item.index}
           departmentName={item.DepartmentName}
           departmentId={item.DepartmentId}
+          departmentColor={item.DepartmentColor}
         />
       ))}
     </div>

@@ -7,9 +7,9 @@ const DepartmentForm = () => {
     DepartmentColor: "",
   });
 
-  useEffect(() => {
+  const postData = () => {
     console.log(json);
-  }, [json]);
+  };
 
   return (
     <>
@@ -37,10 +37,14 @@ const DepartmentForm = () => {
             }
           />
         </div>
-        <button placeholder="Add Department" className="btn btn-addDept">
-          Add department
-        </button>
       </form>
+      <button
+        placeholder="Add Department"
+        className="btn btn-addDept"
+        onClick={() => postData()}
+      >
+        Add department
+      </button>
     </>
   );
 };
