@@ -4,9 +4,11 @@ import Layout from "../layout/Layout";
 
 export default function Home() {
   return (
-    <Layout>
-      <Toolbar />
-      <Grid />
-    </Layout>
+    <>
+      <Layout>
+        <Toolbar />
+        <Grid />
+      </Layout>
+    </>
   );
 }

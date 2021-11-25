@@ -20,8 +20,18 @@
     background: linear-gradient(90deg, rgba(250,144,60,1) 0%, rgba(221,45,116,1) 100%, rgba(221,45,116,1) 100%);
     color: white;
 }
-.btn-back {
+
+
+.btn-addDept {
+    margin-top: 2em;
     background: rgb(250,144,60);
+    background: linear-gradient(90deg, rgba(250,144,60,1) 0%, rgba(221,45,116,1) 100%, rgba(221,45,116,1) 100%);
+    color: white;
+}
+
+
+.btn-back {
+        background: rgb(250,144,60);
     background: linear-gradient(90deg, rgba(250,144,60,1) 0%, rgba(221,45,116,1) 100%, rgba(221,45,116,1) 100%);
     color: white;
 }
