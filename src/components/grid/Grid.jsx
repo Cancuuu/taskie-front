@@ -16,6 +16,7 @@ const Grid = () => {
     <div className="grid-container">
       {data.map(item => (
         <CardDepartment
+          key={item.index}
           departmentName={item.DepartmentName}
           departmentId={item.DepartmentId}
           departmentColor={item.DepartmentColor}

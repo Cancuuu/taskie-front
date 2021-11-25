@@ -26,7 +26,7 @@ const DepartmentForm = () => {
   return (
     <>
       <form className="form-department">
-        <label class="toolbar-input">
+        <label className="toolbar-input">
           <input
             type="text"
             placeholder="Name of new department..."
@@ -38,7 +38,7 @@ const DepartmentForm = () => {
             }
           />
         </label>
-        <div class="toolbar-input">
+        <div className="toolbar-input">
           <p>Pick color for new department...</p>
           <CirclePicker
             onChange={e =>

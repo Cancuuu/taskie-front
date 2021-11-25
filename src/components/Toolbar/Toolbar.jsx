@@ -30,7 +30,7 @@ const Toolbar = ({ page }) => {
         )}
       </div>
       {/* {showSearchBar ? (
-        <label class="toolbar-input">
+        <label className="toolbar-input">
           <input type="text" placeholder="Search department..." />
         </label>
       ) : null} */}
